@@ -8,9 +8,16 @@ import {
   Users,
 } from "lucide-react";
 import { getMarketplaceBusinesses } from "@/lib/api";
+import type { Business } from "@/types/marketplace";
 
 export default async function MarketplacePage() {
-  const businesses = await getMarketplaceBusinesses();
+  let businesses: Business[] = [];
+
+  try {
+    businesses = await getMarketplaceBusinesses();
+  } catch {
+    businesses = [];
+  }
 
   return (
     <div className="min-h-screen bg-[#f7f8fa]">
