@@ -1,0 +1,10 @@
+{
+  "dataset": "KBLI",
+  "version": "2025",
+  "source": "BPS",
+  "canonical": true,
+  "records": 2423,
+  "activities": 1559,
+  "validated": true,
+  "validation_status": "PASS"
+}

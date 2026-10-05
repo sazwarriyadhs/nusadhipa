@@ -1,0 +1,12 @@
+{
+  "email": "legal-test@example.com",
+  "notes": "Test request - business remains operational while legal assistance is processed.",
+  "requested_service": "business_setup",
+  "requested_legal_form": "perseroan_perorangan",
+  "current_legal_status": "not_provided",
+  "city": "Bogor",
+  "name": "Zack Legal Test",
+  "business_name": "Zack Digital Store",
+  "phone": "+628123456789",
+  "business_type": "retail"
+}

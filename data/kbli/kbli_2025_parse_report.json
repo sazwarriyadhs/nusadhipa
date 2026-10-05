@@ -1,0 +1,27 @@
+{
+  "input": "D:\\NUSA-DHIPA-BUSINESS-OS\\data\\kbli\\extracted\\KBLI_2025_master_section.txt",
+  "output": "D:\\NUSA-DHIPA-BUSINESS-OS\\data\\kbli\\kbli_2025.csv",
+  "total_records": 2423,
+  "levels": {
+    "category": 22,
+    "group_pokok": 87,
+    "group": 257,
+    "subgroup": 520,
+    "activity": 1559
+  },
+  "raw_code_duplicates": {
+    "01": 2,
+    "15121": 2,
+    "35151": 2,
+    "4633": 3,
+    "47812": 2,
+    "5110": 2,
+    "72103": 2,
+    "82921": 2,
+    "93111": 2
+  },
+  "unique_codes": 2423,
+  "orphan_codes": [],
+  "invalid_codes": [],
+  "status": "PASS"
+}

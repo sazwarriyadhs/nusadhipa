@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "badges": {
+    "unverified": {
+      "label": "Belum Terverifikasi",
+      "show_qr": false
+    },
+    "in_process": {
+      "label": "Legalitas Dalam Proses",
+      "show_qr": false
+    },
+    "verified": {
+      "label": "NUSA-DHIPA Verified",
+      "show_qr": true
+    },
+    "suspended": {
+      "label": "Verifikasi Ditangguhkan",
+      "show_qr": false
+    },
+    "expired": {
+      "label": "Verifikasi Kedaluwarsa",
+      "show_qr": false
+    }
+  },
+  "rules": {
+    "unverified_is_not_illegal": true,
+    "marketplace_requires_legal": false,
+    "mobile_app_requires_legal": false,
+    "verified_badge_requires_verified": true,
+    "qr_requires_verified": true
+  }
+}

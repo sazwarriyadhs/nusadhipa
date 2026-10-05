@@ -1,0 +1,83 @@
+{
+  "name": "NUSA-DHIPA - Gmail Invoice Test CLEAN",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "nusa-dhipa/gmail-invoice-clean",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "clean-webhook-001",
+      "name": "Invoice Webhook CLEAN",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -500,
+        0
+      ],
+      "webhookId": "nusa-dhipa-gmail-invoice-clean"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $json.body ?? $json;\nconst invoice = body.invoice ?? {};\nconst customer = body.customer ?? {};\nconst business = body.business ?? {};\nconst legal = body.legal ?? {};\n\nconst total = Number(invoice.total ?? 0);\nconst dpPercent = Number(invoice.dp_percent ?? 60);\nconst dpAmount = Number(invoice.dp_amount ?? Math.round(total * dpPercent / 100));\nconst balancePercent = Number(invoice.balance_percent ?? 40);\nconst balanceAmount = Number(invoice.balance_amount ?? total - dpAmount);\n\nconst rupiah = value => new Intl.NumberFormat('id-ID', {\n  style: 'currency',\n  currency: 'IDR',\n  maximumFractionDigits: 0\n}).format(Number(value || 0));\n\nreturn [{ json: {\n  invoice_id: body.invoice_id ?? '',\n  order_id: body.order_id ?? '',\n  customer_name: customer.name ?? '',\n  customer_email: customer.email ?? '',\n  business_name: business.name ?? '',\n  legal_package: legal.package ?? '',\n  kbli_code: legal.kbli_code ?? '',\n  kbli_name: legal.kbli_name ?? '',\n  total_rupiah: rupiah(total),\n  dp_percent: dpPercent,\n  dp_rupiah: rupiah(dpAmount),\n  balance_percent: balancePercent,\n  balance_rupiah: rupiah(balanceAmount),\n  payment_status: invoice.payment_status ?? 'DP_PENDING',\n  invoice_pdf_url: body.invoice_pdf_url ?? ''\n}}];"
+      },
+      "id": "clean-code-002",
+      "name": "Normalize Invoice CLEAN",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "ptdigimedia@gmail.com",
+        "toEmail": "={{$json.customer_email}}",
+        "subject": "={{$json.invoice_id + ' - NUSA-DHIPA Business OS'}}",
+        "emailType": "text",
+        "message": "={{'Halo ' + $json.customer_name + ',\\n\\nInvoice NUSA-DHIPA Business OS telah diterbitkan.\\n\\nInvoice : ' + $json.invoice_id + '\\nOrder   : ' + $json.order_id + '\\nUsaha   : ' + $json.business_name + '\\nPaket   : ' + $json.legal_package + '\\nKBLI    : ' + $json.kbli_code + ' - ' + $json.kbli_name + '\\n\\nTOTAL : ' + $json.total_rupiah + '\\nDP ' + $json.dp_percent + '% : ' + $json.dp_rupiah + '\\nPELUNASAN ' + $json.balance_percent + '% : ' + $json.balance_rupiah + '\\nStatus : ' + $json.payment_status + '\\n\\nInvoice PDF:\\n' + $json.invoice_pdf_url + '\\n\\nNUSA-DHIPA Business OS'}}",
+        "options": {}
+      },
+      "id": "clean-email-003",
+      "name": "Email Invoice CLEAN",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        80,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Invoice Webhook CLEAN": {
+      "main": [
+        [
+          {
+            "node": "Normalize Invoice CLEAN",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Invoice CLEAN": {
+      "main": [
+        [
+          {
+            "node": "Email Invoice CLEAN",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": []
+}

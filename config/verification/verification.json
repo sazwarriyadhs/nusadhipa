@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "brand": "NUSA-DHIPA",
+
+  "verification": {
+    "public_base_url": "http://localhost:3010/verify",
+    "production_base_url": "https://verify.nusa-dhipa.id",
+    "code_prefix": "NDH",
+    "qr_enabled": true
+  },
+
+  "statuses": {
+    "unverified": {
+      "label": "Belum Terverifikasi",
+      "verified": false
+    },
+
+    "in_process": {
+      "label": "Legalitas Dalam Proses",
+      "verified": false
+    },
+
+    "verified": {
+      "label": "NUSA-DHIPA Verified",
+      "verified": true
+    },
+
+    "suspended": {
+      "label": "Verifikasi Ditangguhkan",
+      "verified": false
+    },
+
+    "expired": {
+      "label": "Verifikasi Kedaluwarsa",
+      "verified": false
+    }
+  },
+
+  "rules": {
+    "unverified_is_not_illegal": true,
+    "legal_status_does_not_block_marketplace": true,
+    "legal_status_does_not_block_mobile_app": true,
+    "verified_badge_requires_verified_status": true,
+    "qr_requires_verified_status": true
+  }
+}

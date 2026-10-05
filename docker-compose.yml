@@ -1,0 +1,262 @@
+services:
+
+  # ==========================================================
+  # DATABASE
+  # ==========================================================
+
+  postgres:
+    image: postgres:17
+    container_name: nusa-dhipa-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: nusa_dhipa
+      POSTGRES_USER: nusa_dhipa
+      POSTGRES_PASSWORD: change_me
+    ports:
+      - "15440:5432"
+    volumes:
+      - nusa-dhipa-postgres-data:/var/lib/postgresql/data
+      - ./infrastructure/postgres/migrations:/docker-entrypoint-initdb.d:ro
+    networks:
+      - nusa-dhipa-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nusa_dhipa -d nusa_dhipa"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ==========================================================
+  # REDIS
+  # ==========================================================
+
+  redis:
+    image: redis:8
+    container_name: nusa-dhipa-redis
+    restart: unless-stopped
+    ports:
+      - "16390:6379"
+    volumes:
+      - nusa-dhipa-redis-data:/data
+    networks:
+      - nusa-dhipa-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ==========================================================
+  # API GATEWAY
+  # ==========================================================
+
+  api_gateway:
+    build:
+      context: .
+      dockerfile: services/api_gateway/Dockerfile
+    container_name: nusa-dhipa-api-gateway
+    restart: unless-stopped
+    environment:
+      PORT: "8300"
+      AUTH_URL: http://auth:8301
+      TENANT_URL: http://tenant:8302
+      BUSINESS_URL: http://business:8303
+      CATALOG_URL: http://catalog:8304
+      ORDER_URL: http://order:8305
+      LEGAL_URL: http://legal:8327
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8300:8300"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # AUTH
+  # ==========================================================
+
+  auth:
+    build:
+      context: .
+      dockerfile: services/auth/Dockerfile
+    container_name: nusa-dhipa-auth
+    restart: unless-stopped
+    environment:
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      DB_NAME: nusa_dhipa
+      PORT: "8301"
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8301:8301"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # TENANT
+  # ==========================================================
+
+  tenant:
+    build:
+      context: .
+      dockerfile: services/tenant/Dockerfile
+    container_name: nusa-dhipa-tenant
+    restart: unless-stopped
+    environment:
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      DB_NAME: nusa_dhipa
+      PORT: "8302"
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8302:8302"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # BUSINESS
+  # ==========================================================
+
+  business:
+    build:
+      context: .
+      dockerfile: services/business/Dockerfile
+    container_name: nusa-dhipa-business
+    restart: unless-stopped
+    environment:
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      DB_NAME: nusa_dhipa
+      PORT: "8303"
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    ports:
+      - "8303:8303"
+    volumes:
+      - ./storage/business:/app/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # CATALOG
+  # ==========================================================
+
+  catalog:
+    build:
+      context: ./services/catalog
+      dockerfile: Dockerfile
+    container_name: nusa-dhipa-catalog
+    restart: unless-stopped
+    environment:
+      PORT: "8304"
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: nusa_dhipa
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8304:8304"
+    depends_on:
+      - postgres
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # ORDER SERVICE
+  # ==========================================================
+
+  order:
+    build:
+      context: ./services/order
+      dockerfile: Dockerfile
+    container_name: nusa-dhipa-order
+    restart: unless-stopped
+    environment:
+      PORT: "8305"
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: nusa_dhipa
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8305:8305"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+  # ==========================================================
+  # LEGAL
+  # ==========================================================
+
+  legal:
+    build:
+      context: .
+      dockerfile: services/legal/Dockerfile
+    container_name: nusa-dhipa-legal
+    restart: unless-stopped
+    environment:
+      PORT: "8327"
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: nusa_dhipa
+      DB_USER: nusa_dhipa
+      DB_PASSWORD: change_me
+      JWT_SECRET: nusa-dhipa-development-secret-change-me
+    ports:
+      - "8327:8327"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - nusa-dhipa-network
+
+
+# ============================================================
+# NETWORKS
+# ============================================================
+
+networks:
+  nusa-dhipa-network:
+    name: nusa-dhipa-network
+    driver: bridge
+
+
+# ============================================================
+# VOLUMES
+# ============================================================
+
+volumes:
+  nusa-dhipa-postgres-data:
+    name: nusa-dhipa-postgres-data
+
+  nusa-dhipa-redis-data:
+    name: nusa-dhipa-redis-data

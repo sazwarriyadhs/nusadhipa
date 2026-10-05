@@ -1,0 +1,23 @@
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS short_name VARCHAR(100);
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS tagline VARCHAR(255);
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS description TEXT;
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS whatsapp VARCHAR(50);
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS website VARCHAR(500);
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS logo_url TEXT;
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS cover_image_url TEXT;
+
+ALTER TABLE businesses
+    ADD COLUMN IF NOT EXISTS brand_color VARCHAR(20);

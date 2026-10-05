@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "currency": "IDR",
+  "marketplace": {
+    "name": "NUSA-DHIPA Digital Entry",
+    "starting_price": 50000,
+    "plans": [
+      {
+        "legal_status": "unregistered",
+        "legal_form": "none",
+        "label": "Belum Punya Legalitas",
+        "price": 50000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      },
+      {
+        "legal_status": "registered",
+        "legal_form": "pt_perorangan",
+        "label": "PT Perorangan",
+        "price": 50000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      },
+      {
+        "legal_status": "registered",
+        "legal_form": "cv",
+        "label": "CV",
+        "price": 75000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      },
+      {
+        "legal_status": "registered",
+        "legal_form": "pt",
+        "label": "PT",
+        "price": 100000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      },
+      {
+        "legal_status": "registered",
+        "legal_form": "koperasi",
+        "label": "Koperasi",
+        "price": 125000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      },
+      {
+        "legal_status": "registered",
+        "legal_form": "other",
+        "label": "Legalitas Lainnya",
+        "price": 125000,
+        "mobile_app_trial_days": 30,
+        "marketplace_enabled": true
+      }
+    ]
+  }
+}

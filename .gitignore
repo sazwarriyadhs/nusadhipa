@@ -1,0 +1,143 @@
+# ============================================================
+# NUSA DHIPA BUSINESS OS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Go
+*.exe
+*.test
+*.out
+bin/
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+*.coverprofile
+
+# Refact / Buddy local metadata
+.refact/
+
+# ============================================================
+# Generated / Build Artifacts
+# ============================================================
+
+.next/
+**/.next/
+
+*.tsbuildinfo
+*.pyc
+__pycache__/
+**/__pycache__/
+
+dist/
+**/dist/
+
+build/
+**/build/
+
+# ============================================================
+# Local Backups
+# ============================================================
+
+_controlled_backups/
+**/_controlled_backups/
+
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+*.before-*
+
+# ============================================================
+# Local Refact / Buddy metadata
+# ============================================================
+
+.refact/
+
+
+# Backup directories / files
+_backup*/
+**/_backup*/
+_backup_*/
+**/_backup_*/
+_repair_backup*/
+**/_repair_backup*/
+
+# Temporary working files
+*.tmp
+*.temp
+*.orig
+
+# Vercel
+.vercel/
+**/.vercel/
+
+
+# NUSA-DHIPA Generated / Build Artifacts
+.next/
+**/.next/
+*.tsbuildinfo
+*.pyc
+__pycache__/
+**/__pycache__/
+dist/
+**/dist/
+build/
+**/build/
+.vercel/
+**/.vercel/
+
+# NUSA-DHIPA Local Backup Files
+_controlled_backups/
+**/_controlled_backups/
+*.bak
+*.bak_*
+*.bak-*
+*.backup
+*.backup_*
+*.backup-*
+*.before-*
+*_backup_*
+*_backup
+
+# Local tooling metadata
+.refact/
+# Vercel / deployment
+# Temporary files
+*.__nusa_dhipa_tmp
+# Additional local backup snapshots
+*-backup-*
+*.old

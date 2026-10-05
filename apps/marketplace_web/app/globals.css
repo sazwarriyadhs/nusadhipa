@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --nd-red: #e5232e;
+  --nd-red-dark: #c91621;
+  --nd-red-soft: #fff1f2;
+  --nd-charcoal: #17191d;
+  --nd-text: #202329;
+  --nd-muted: #68707d;
+  --nd-line: #e7e9ed;
+  --nd-bg: #f7f8fa;
+  --nd-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--nd-bg);
+  color: var(--nd-text);
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.nd-card {
+  background: #fff;
+  border: 1px solid var(--nd-line);
+  border-radius: 20px;
+  box-shadow:
+    0 1px 2px rgba(16, 24, 40, 0.03),
+    0 10px 28px rgba(16, 24, 40, 0.04);
+}
+
+.nd-card-hover {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.nd-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: #d7dbe1;
+  box-shadow:
+    0 5px 10px rgba(16, 24, 40, 0.05),
+    0 18px 42px rgba(16, 24, 40, 0.09);
+}
+
+.nd-red-gradient {
+  background:
+    linear-gradient(
+      135deg,
+      #f42b38 0%,
+      #e5232e 48%,
+      #c91621 100%
+    );
+}
+
+.nd-section-label {
+  color: var(--nd-red);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.nd-link {
+  transition:
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+.nd-link:hover {
+  color: var(--nd-red);
+}
+
+.nd-input {
+  outline: none;
+}
+
+.nd-input:focus {
+  box-shadow: none;
+}
+
+.nd-glass {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+}
+
+.nd-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cfd3d9 transparent;
+}
+
+.nd-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.nd-scrollbar::-webkit-scrollbar-thumb {
+  background: #cfd3d9;
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100% - 24px, 1180px);
+  }
+
+  .nd-card {
+    border-radius: 17px;
+  }
+}

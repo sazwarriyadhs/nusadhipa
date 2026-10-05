@@ -1,0 +1,407 @@
+
+===== PAGE 1 =====
+Katalog: 1302017 
+https://www.bps.go.id
+
+
+===== PAGE 2 =====
+https://www.bps.go.id
+
+
+===== PAGE 3 =====
+Katalog: 1302017 
+https://www.bps.go.id
+
+
+===== PAGE 4 =====
+Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025 
+ 
+Katalog: 1302017 
+ISBN: 978-602-438-530-9 (PDF)
+Nomor Publikasi: 03100.25003 
+Ukuran Buku: 18,2 x 25,7 cm  
+Jumlah Halaman: xiv+1021 halaman 
+Penyusun Naskah:  
+Direktorat Pengembangan Metodologi Sensus dan Survei 
+Penyunting:  
+Direktorat Pengembangan Metodologi Sensus dan Survei 
+Pembuat Kover: 
+Direktorat Pengembangan Metodologi Sensus dan Survei 
+Penerbit: 
+©Badan Pusat Statistik 
+Dicetak oleh: 
+Badan Pusat Statistik 
+Sumber Ilustrasi: 
+Freepik.com; Canva 
+Dilarang mereproduksi dan/atau menggandakan sebagian atau seluruh isi 
+buku ini untuk tujuan komersial tanpa izin tertulis dari Badan Pusat 
+Statistik  
+https://www.bps.go.id
+
+
+===== PAGE 5 =====
+TIM PENYUSUN 
+Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025  
+Pengarah 
+Amalia Adininggar Widyasanti 
+Penanggung Jawab 
+Pudji Ismartini 
+Penanggung Jawab Teknis 
+Kadarmanto 
+Penyunting
+Lien Suharni 
+Yudhi Agustar Sanjaya 
+Tri Listianingrum 
+Pengolah Data dan Penulis Naskah 
+Lien Suharni 
+Yudhi Agustar Sanjaya 
+Iin Husjakarsih 
+Tri Listianingrum 
+Rully Narulita 
+Ratih Nirahana Sari 
+Fitria Eviana 
+Mahendri Dwicahyo 
+David Setya Prehandoko 
+Raflizal Fikrar Odriansyah 
+Timotius Vincent Gunawan 
+Margogo Beltsazar Raplito 
+Fitri Yanti 
+Zelly Maylani 
+Nasrul 
+Penata Letak 
+David Setya Prehandoko 
+Timotius Vincent Gunawan 
+Raflizal Fikrar Odriansyah 
+Margogo Beltsazar Raplito 
+https://www.bps.go.id
+
+
+===== PAGE 6 =====
+https://www.bps.go.id
+
+
+===== PAGE 7 =====
+v 
+KATA PENGANTAR 
+Penyusunan Klasifikasi Baku Lapangan Usaha 
+Indonesia (KBLI) merupakan amanat Pasal 17 ayat (2) 
+Undang-Undang Nomor 16 Tahun 1997 tentang 
+Statistik, yang menugaskan Badan Pusat Statistik (BPS) 
+untuk membangun dan mengembangkan konsep, 
+definisi, klasifikasi,  dan ukuran statistik dalam Sistem 
+Statistik Nasional. Amanat tersebut diwujudkan melalui 
+penyediaan klasifikasi bisa mengakomodir aktivitas 
+ekonomi Indonesia dan terbanding secara internasional 
+dengan merujuk pada klasifikasi standar internasional, 
+yaitu International Standard Industrial Classification of 
+All Economic Activities (ISIC)  yang diterbitkan oleh 
+Divisi Statistik PBB. 
+Seiring munculnya aktivitas ekonomi baru sebagai akibat adanya 
+perkembangan teknologi, dinamika perekonomian, perubahan struktur usaha, serta 
+meningkatnya perhatian terhadap isu lingkungan dan perubahan iklim, maka KBLI 
+2025 disusun sebagai penyempurnaan K BLI 2020. KBLI 2025 telah mengikuti 
+kerangka dan struktur ISIC Revisi 5. Dengan ditetapkannya KBLI 2025 melalui 
+Peraturan BPS Nomor 7 Tahun 2025, maka seluruh kebijakan dan kegiatan yang 
+sebelumnya mengacu pada KBLI 2020 dapat disesuaikan dengan menggunakan KBLI 
+2025.  
+Dalam rangka penyempurnaan buku publikasi ini, kami sangat mengharapkan 
+saran dan masukan dari para pengguna. Kami menyampaikan apresiasi dan 
+penghargaan kepada seluruh pihak yang telah berkontribusi dalam penyusunan KBLI 
+2025. Besar harapan kami agar publ ikasi ini dapat menjadi acuan yang bermanfaat 
+serta dimanfaatkan secara optimal oleh seluruh pemangku kepentingan. 
+Jakarta, Desember 2025 
+Kepala Badan Pusat Statistik 
+ Amalia Adininggar Widyasanti 
+https://www.bps.go.id
+
+
+===== PAGE 8 =====
+https://www.bps.go.id
+
+
+===== PAGE 9 =====
+vii 
+DAFTAR ISI 
+Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025 
+KATA PENGANTAR ........................................................................................... v 
+DAFTAR ISI ................................................................................................... vii 
+PENJELASAN ................................................................................................... 1 
+1 PENDAHULUAN .................................................................................. 1 
+2 PRINSIP DASAR KBLI .......................................................................... 1 
+2.1 Sifat dan Tujuan ............................................................................................. 1 
+2.2 Struktur dan Sistem Pengodean ................................................................... 4 
+3 PENERAPAN KBLI ............................................................................... 6 
+3.1 Aktivitas Utama, Aktivitas Sekunder, dan Aktivitas Penunjang ................... 6 
+3.2 Unit Statistik ................................................................................................... 9 
+3.2.1 Gambaran Umum ...................................................................................... 9 
+3.2.2 Unit statistik dalam Sistem Neraca Nasional ......................................... 12 
+3.2.3 Unit statistik lainnya ................................................................................ 14 
+3.2.4 Pengelompokan unit statistik .................................................................. 15 
+3.3 Penetapan KBLI bagi Unit Statistik ............................................................. 18 
+3.3.1 Petunjuk Umum ....................................................................................... 18 
+3.3.2 Perlakuan pada Aktivitas Campuran ....................................................... 21 
+3.3.3 Niaga-el .................................................................................................... 32 
+3.3.4 Jasa Intermediasi .................................................................................... 33 
+3.3.5. Reparasi dan Perbaikan ......................................................................... 34 
+3.3.6 Outsourcing/aktivitas atas dasar balas jasa atau kontrak .................... 35 
+3.3.7 Aktivitas Keuangan .................................................................................. 37 
+3.3.8 Aktivitas Pemerintah ............................................................................... 39 
+3.3.9 Instalasi di Lokasi .................................................................................... 40 
+3.3.10 Usaha Individu ....................................................................................... 40 
+3.3.11 Pengklasifikasian Enterprise ................................................................. 40 
+3.3.12 Pengklasifikasian rumah tangga ........................................................... 41 
+https://www.bps.go.id
+
+
+===== PAGE 10 =====
+viii 
+3.3.13 Perubahan kode KBLI ............................................................................42 
+3.4 Pemanfaatan KBLI dalam Kegiatan Statistik ..............................................42 
+3.5 Penggunaan KBLI untuk perizinan dan kebijakan di luar statistik .............43 
+4 PROSES PENYUSUNAN ...................................................................... 44 
+4.1 Ketentuan Umum Penyempurnaan KBLI .....................................................44 
+4.2 Penyusunan KBLI 2025 ................................................................................45 
+5 PERUBAHAN KBLI ............................................................................. 47 
+5.1 Perubahan ISIC Rev. 5 menjadi KBLI 2025 (Peraturan BPS No. 7 tahun 
+2025) ............................................................................................................47 
+5.2.  Perubahan KBLI 2020 (Peraturan BPS No. 2 tahun 2020) menjadi KBLI 
+2025 (Peraturan BPS No. 7 tahun 2025) ....................................................59 
+5.3 Koreksi kode KBLI 2025 Pada Perban KBLI 2025 ................................. 192 
+5.4 SINGKATAN DAN KETERANGAN ........................................................ 226 
+A PERTANIAN, KEHUTANAN, DAN PERIKANAN ............................................. 231 
+B. PERTAMBANGAN DAN PENGGALIAN ......................................................... 277 
+C INDUSTRI ............................................................................................ 297 
+D PENYEDIAAN LISTRIK, GAS, UAP/AIR PANAS, DAN UDARA DINGIN ............. 527 
+E PENYEDIAAN AIR; PENGELOLAAN AIR LIMBAH, PENANGANAN LIMBAH, DAN 
+REMEDIASI .......................................................................................... 539 
+F KONSTRUKSI ........................................................................................ 555 
+G PERDAGANGAN BESAR DAN ECERAN ....................................................... 581 
+H TRANSPORTASI DAN PENYIMPANAN ........................................................ 649 
+I AKTIVITAS PENYEDIAAN AKOMODASI DAN MAKAN MINUM ........................ 701 
+J AKTIVITAS PENERBITAN, PENYIARAN, SERTA PRODUKSI DAN DISTRIBUSI 
+KONTEN ............................................................................................... 719 
+K AKTIVITAS TELEKOMUNIKASI, PEMROGRAMAN KOMPUTER, KONSULTANSI, 
+INFRASTRUKTUR KOMPUTASI, DAN JASA INFORMASI LAINNYA .................. 741 
+L AKTIVITAS KEUANGAN DAN ASURANSI ................................................... 763 
+M AKTIVITAS REAL ESTAT ......................................................................... 805 
+N AKTIVITAS PROFESIONAL, ILMIAH, DAN TEKNIS ...................................... 815 
+O AKTIVITAS ADMINISTRATIF DAN PENUNJANG USAHA ................................ 859 
+P ADMINISTRASI PEMERINTAHAN DAN PERTAHANAN, SERTA JAMINAN SOSIAL 
+WAJIB ................................................................................................. 897 
+Q PENDIDIKAN ........................................................................................ 913 
+R AKTIVITAS KESEHATAN MANUSIA DAN AKTIVITAS SOSIAL ........................ 939 
+S KESENIAN, OLAHRAGA, DAN REKREASI ................................................... 961 
+https://www.bps.go.id
+
+
+===== PAGE 11 =====
+ix 
+T AKTIVITAS JASA LAINNYA ...................................................................... 995 
+U AKTIVITAS RUMAH TANGGA SEBAGAI PEMBERI KERJA DAN AKTIVITAS 
+PRODUKSI BARANG DAN JASA OLEH RUMAH TANGGA UNTUK KEPERLUAN 
+SENDIRI YANG TIDAK TERDIFERENSIASI ............................................... 1015 
+V AKTIVITAS BADAN INTERNASIONAL DAN BADAN EKSTRA INTERNASIONAL 
+LAINNYA ............................................................................................. 1021
+https://www.bps.go.id
+
+
+===== PAGE 12 =====
+x 
+https://www.bps.go.id
+
+
+===== PAGE 13 =====
+   
+ 
+ xi 
+ 
+https://www.bps.go.id
+
+
+===== PAGE 14 =====
+   
+ 
+xii  
+ 
+ 
+https://www.bps.go.id
+
+
+===== PAGE 15 =====
+   
+ 
+ xiii 
+ 
+  
+https://www.bps.go.id
+
+
+===== PAGE 16 =====
+https://www.bps.go.id
+
+
+===== PAGE 17 =====
+   
+ 
+ PENJELASAN 1 
+ 
+PENJELASAN 
+ 
+1  PENDAHULUAN 
+Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) merupakan salah satu 
+klasifikasi baku yang diterbitkan oleh Badan Pusat Statistik (BPS) untuk 
+mengelompokkan beragam aktivitas ekonomi ke dalam kelompok -kelompok tertentu 
+berdasarkan kesamaan karakteristik k egiatan. Sejalan dengan perkembangan 
+aktivitas ekonomi yang semakin beragam dan rinci, perlu dilakukan penyempurnaan 
+KBLI. Pada tahun 2025 BPS melakukan penyempurnaan KBLI melalui pembahasan 
+bersama unit kerja dan instansi terkait, serta mengintensifkan so sialisasi KBLI di 
+lingkup internal maupun eksternal BPS. 
+Pada awalnya KBLI dirancang untuk keperluan statistik di BPS. Dengan semakin 
+strategisnya peranan dan penggunaan KBLI, klasifikasi ini juga digunakan untuk 
+penentuan bidang usaha yang tercantum pada Online Single Submission (OSS) yaitu 
+sistem yang digunakan untuk mempermudah perizinan usaha secara daring. Oleh 
+karena itu, perlu adanya peraturan yang dijadikan dasar penggunaan KBLI 2025 
+dalam bentuk Peraturan BPS. Dengan adanya Peraturan BPS tersebut maka 
+pengklasifikasian aktivitas ekonomi menurut kelompok lapangan usaha yang ada di 
+Indonesia diwajibkan merujuk pada kode KBLI 2025. 
+KBLI 2025 merupakan penyempurnaan dari KBLI 2020 dan mengacu kepada 
+International Standard Industrial Classification of All Economic Activities (ISIC) Rev. 5 
+yang diterbitkan oleh United Nations of Statistical Division (UNSD) Tahun 2024 hingga 
+tingkatan 4 digit. Pada tingkatan 5 digit, KBLI 2025 disesuaikan dengan kondisi 
+aktivitas ekonomi di Indonesia. 
+KBLI 2020 diterbitkan dalam bentuk Peraturan BPS No. 7 Tahun 2025 tentang 
+Klasifikasi Baku Lapangan Usaha Indonesia. Dengan diterbitkannya Peraturan BPS No. 
+7 tentang KBLI Tahun 2025, secara bertahap KBLI 2020, KBLI 2015, dan KBLI versi 
+sebelumnya tidak berlaku lagi. KBLI 2025 juga disusun untuk menunjang perubahan 
+bidang usaha serta perizinan. 
+2  PRINSIP DASAR KBLI 
+2.1  Sifat dan Tujuan 
+Klasifikasi merupakan suatu sistem pengelompokan yang digunakan 
+dalam komunikasi ekonomi dan proses statistik yang terdapat di dalamnya. 
+Dalam klasifikasi, pengelompokan dilakukan sehomogen mungkin sesuai kaidah 
+https://www.bps.go.id
+
+
+===== PAGE 18 =====
+   
+ 
+2 Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025 
+ 
+atau standar tertentu yang ditetapkan. KBLI menyediakan satu set kerangka 
+klasifikasi aktivitas ekonomi yang komprehensif di Indonesia agar dapat 
+digunakan untuk penyelenggaraan statistik, dasar perencanaan, evaluasi 
+kebijakan, dan perizinan berusaha. 
+Sejarah perkembangan klasifikasi lapangan usaha dimulai dari Klasifikasi 
+Lapangan Usaha Indonesia (KLUI) 1977 yang kemudian direvisi menjadi KLUI 
+1983. Kedua klasifikasi lapangan usaha ini mengacu pada ISIC Rev.2 tahun 
+1968. Setelah ISIC Rev. 3 terbit pada tahun 1990, KLUI 1983 kemudian direvisi 
+menjadi KLUI 1997, lalu kembali direvisi menjadi KBLI 2000 hingga menjadi 
+KBLI 2005. Selanjutnya, setelah ISIC Rev. 4 terbit pada tahun 2008, KBLI 2005 
+direvisi menjadi KBLI 2009 Cetakan I, KBLI 2009 Cetakan II, KBLI 2009 Cetakan 
+III, KBLI 2015 Perka 2015, KBLI 2015 Perka 2017, dan KBLI 2020. Selanjutnya, 
+KBLI 2025 merupakan pembaruan dari KBLI 2020 yang mengacu kepada ISIC 
+Rev. 5 hingga level 4 digit. Oleh karena itu, KBLI 2025 memiliki kesamaan 
+landasan konseptual dengan ISIC Rev. 5. Dengan demikian, data statistik yang 
+disajikan menurut KBLI dapat dibandingkan pada tingkat internasional. 
+Dalam perkembangannya, penggunaan klasifikasi untuk penyajian dan 
+analisis data secara nasional seringkali membutuhkan informasi yang lebih rinci. 
+Sementara itu, rincian data menurut jenis aktivitas ekonomi berbeda antara 
+negara yang satu dengan lainnya. P erbedaan keadaan geografis, historis, 
+derajat perkembangan industri dan organisasi aktivitas ekonomi mengakibatkan 
+perbedaan tingkat elaborasi pada masing -masing negara. Untuk memenuhi 
+kebutuhan tersebut, klasifikasi lapangan usaha telah dikembangkan hingga level 
+5 digit sesuai kondisi di Indonesia sejak diterbitkannya KLUI 1983. 
+Struktur KBLI 2025 mengalami beberapa perubahan dibandingkan KBLI 
+2020 di beberapa tingkatan 3, 4, dan 5 digit. Untuk menyediakan arus informasi 
+berkelanjutan dalam melakukan monitoring, analisis, dan evaluasi data secara 
+runtun waktu, selanjutnya akan diterbitkan tabel kesesuaian antara KBLI 2020 
+ke KBLI 2025 dan sebaliknya. 
+ 
+Cakupan Klasifikasi 
+KBLI merupakan klasifikasi menurut jenis aktivitas ekonomi, sehingga 
+ruang lingkupnya terbatas pada unit yang terlibat dalam aktivitas ekonomi. KBLI 
+mengklasifikasikan seluruh aktivitas ekonomi ke dalam beberapa lapangan 
+usaha berdasarkan pendekatan kegiat an, yang menekankan pada proses dari 
+https://www.bps.go.id
+
+
+===== PAGE 19 =====
+   
+ 
+ PENJELASAN 3 
+ 
+aktivitas ekonomi untuk menghasilkan barang/jasa, serta pendekatan fungsi 
+yang melihat pada fungsi pelaku ekonomi dalam menggunakan input seperti 
+tenaga kerja, modal serta barang dan jasa untuk menciptakan output 
+barang/jasa (SNA 2008, paragraf 6.24). 
+Dalam KBLI, kegiatan industri pengolahan, tidak dibedakan apakah 
+aktivitas ekonomi suatu perusahaan industri dilakukan dengan mesin atau 
+dengan tangan, dilakukan di pabrik atau di rumah tangga, maupun industri 
+modern atau tradisional. KBLI juga tidak membe dakan antara metode yang 
+digunakan, baik produksi secara tradisional maupun modern, meskipun 
+perbedaan tersebut mungkin berguna untuk beberapa statistik. Lebih lanjut, 
+KBLI juga tidak membedakan antara kegiatan formal atau informal, legal dan 
+ilegal, maupu n produksi pasar atau nonpasar. KBLI mengelompokkan unit 
+produksi menurut kelompok jenis aktivitas produktif barang dan jasa, bukan 
+mengklasifikasikan komoditas barang dan jasa. 
+Ruang lingkup KBLI didefinisikan sesuai dengan batasan kegiatan produksi 
+dalam System of National Accounts  (SNA), dengan satu pengecualian yaitu 
+dalam KBLI subgolongan 9820, yaitu aktivitas produksi beragam jasa oleh 
+rumah tangga untuk keperluan sendiri. Bersama dengan subgolongan 9810 
+(aktivitas produksi beragam barang oleh rumah tangga untuk keperluan 
+sendiri), kedua cakupan ini digunakan untuk mengukur kegiatan subsisten oleh 
+rumah tangga. Subgolongan ini hanya mencakup sebagian dari seluruh rumah 
+tangga, karena rumah tangga dengan aktivitas ekonomi yang jelas (baik untuk 
+dijual atau sebagian untuk digunakan sendiri) diklasifikasikan di bagian lain 
+dalam KBLI. Golongan pokok ini diciptakan untuk tujuan khusus seperti survei 
+angkatan kerja, untuk mencakup kombinasi dari aktivitas rumah tangga yang 
+sulit diklasifikasikan ke dalam suatu kelompok tunggal dalam KBLI. 
+ 
+Prinsip dalam Pengklasifikasian 
+Prinsip dan kriteria yang digunakan untuk mendefinisikan dan 
+menggambarkan kategori klasifikasi di tingkat manapun tergantung pada 
+banyak faktor, seperti potensi penggunaan klasifikasi dan ketersediaan data. 
+Kriteria ini juga akan berubah tergantung pada tingkat agregasi. 
+KBLI dibangun berdasarkan kerangka konseptual aktivitas produksi yang 
+mengelompokkan unit produksi menjadi sektor yang lebih rinci berdasarkan 
+https://www.bps.go.id
+
+
+===== PAGE 20 =====
+   
+ 
+4 Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) 2025 
+ 
+kesamaan aktivitas ekonomi, dengan mempertimbangkan beberapa 
+karakteristik aktivitas berikut (lihat SNA 2008 paragraf 5.5):  
+(a) Jenis barang dan jasa yang diproduksi sebagai output; 
+(b) Jenis dari input yang digunakan; 
+(c) Teknik produksi yang ditetapkan; dan 
+(d) Cara-cara output digunakan. 
+Secara umum, teknologi tidak lagi menjadi kriteria utama dalam 
+menentukan aktivitas ekonomi dalam KBLI. Sebagai contoh, aktivitas teknologi 
+keuangan (fintech) yang menyediakan, meningkatkan, atau memperluas akses 
+ke jasa keuangan melalui digitalisasi telah dilakukan sebelumnya, meskipun 
+dengan instrumen teknis yang tidak secanggih sekarang. Oleh karena aktivitas 
+ini sudah didefinisikan sebelumnya dalam KBLI, t idak ada tambahan 
+subgolongan atau kelompok baru terkait fintech dalam KBLI 2025. 
+Adanya kebutuhan untuk menghubungkan jenis aktivitas dengan output-
+nya membuat pengelompokan dalam KBLI harus memenuhi kriteria sebagai 
+berikut: 
+a) Produksi barang dan jasa yang mencirikan sebuah kelompok diberikan 
+untuk sebagian besar hasil atau keluaran dari unit yang diklasifikasikan 
+ke dalam kelompok tersebut; 
+b) Kelompok berisikan unit yang menghasilkan sebagian besar barang dan 
+jasa yang menjadi ciri kelompok tersebut. 
+Kondisi ini diperlukan agar unit yang sejenis dapat diklasifikasikan secara 
+unik dan mudah menurut jenis aktivitas ekonomi, dan agar unit -unit sejenis 
+yang masuk dalam kelompok tertentu akan mirip satu sama lain. 
+KBLI 2025 tidak lagi membedakan bagaimana barang didistribusikan. 
+Struktur KBLI disusun berdasarkan produk yang terjual, baik melalui toko, 
+melalui internet, kios, pasar, maupun melalui mesin penjual otomatis. 
+ 
+2.2  Struktur dan Sistem Pengodean 
+Struktur pengodean KBLI mengadaptasi dari struktur pengodean pada 
+ISIC Rev. 5. Struktur pengodean dan penamaan struktur kode dalam KBLI 2025 
+masih sama dengan KBLI 2020 sebagai berikut: 
+https://www.bps.go.id

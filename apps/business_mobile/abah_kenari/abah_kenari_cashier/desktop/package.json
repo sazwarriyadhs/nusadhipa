@@ -1,0 +1,48 @@
+{
+  "name": "abah-kenari-cashier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NUSA-DHIPA Electron Cashier - RM Abah Kenari",
+  "main": "electron/main.cjs",
+  "author": "NUSA-DHIPA",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1 --port 5174\" \"wait-on http://127.0.0.1:5174 && electron .\"",
+    "build": "vite build",
+    "start": "electron .",
+    "dist": "npm run build && electron-builder",
+    "preview": "vite preview --host 127.0.0.1 --port 5174"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "wait-on": "^8.0.2"
+  },
+  "build": {
+    "appId": "com.nusa-dhipa.abah-kenari-cashier",
+    "productName": "Abah Kenari Cashier",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
